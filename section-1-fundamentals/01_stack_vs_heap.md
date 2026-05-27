@@ -112,3 +112,5 @@ Memory Grid Consumption:
 ```
 
 Because the cache list lives in a scope that never ends, the Reference Count for every huge list array remains stuck above 0. The Garbage Collector cannot reclaim the slots. The heap warehouse grows completely full until the operating system throws an Out Of Memory (OOM) error and kills your application process container.
+
+![Stack vs Heap Mechanics](../assets/diagrams/stack_vs_heap_mechanics.png)
